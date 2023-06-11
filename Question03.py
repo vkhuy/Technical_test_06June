@@ -2,10 +2,12 @@ import argparse
 from Bio import SeqIO
 import logging
 
+# Create CLI for user inputting
 parser = argparse.ArgumentParser(description='Assembly a DNA string based on sequences in a FASTA file.')
 parser.add_argument('infile', help='Input FASTA file name')
 args = parser.parse_args()
 
+# Create log file
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 f = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
