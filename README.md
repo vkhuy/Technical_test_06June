@@ -1,6 +1,6 @@
 # Technical_test_06June
  
-This repository contains all of my questions and solution in my technical test on 6th June 2023.
+This repository contains all of my questions and solutions in my technical test on 6th June 2023.
 
 ## Table of Contents
 
