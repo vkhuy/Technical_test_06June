@@ -2,6 +2,7 @@ import numpy as np
 from Bio import SeqIO
 import logging
 
+# Create log file
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 f = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
