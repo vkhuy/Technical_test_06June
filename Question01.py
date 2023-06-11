@@ -1,11 +1,12 @@
 from Bio import SeqIO
 import argparse
 
+# Create CLI for user inputting
 parser = argparse.ArgumentParser(description='Assembly a DNA string based on sequences in a FASTA file.')
 parser.add_argument('infile', help='Input FASTA file name')
 args = parser.parse_args()
 
-# Read sequence from Seq01.fasta
+# Read sequence from input file
 record = SeqIO.read(args.infile, "fasta")
 sequence = record.seq
 
