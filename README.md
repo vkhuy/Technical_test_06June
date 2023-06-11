@@ -16,7 +16,7 @@ This repository contains all of my questions and solutions in my technical test 
 
 Question01: Given a DNA string (Seq01.fasta), report the sequence:numberofrepeat of the Kmers that has equal or greater than 10 base-pair. Using [argparser library](https://docs.python.org/3/library/argparse.html) for user inputing.
 
-Question02: Building a consensus by taking 10 strings in Seq02.fasta in consideraIon. Use [logging library](https://docs.python.org/3/library/logging.html) to report the log file.
+Question02: Building a consensus by taking 10 strings in Seq02.fasta in consideration. Use [logging library](https://docs.python.org/3/library/logging.html) to report the log file.
 
 Question03: Assembly a DNA string based on 7 sequences in Seq03.fasta. Use both argparser and logging library.
 
