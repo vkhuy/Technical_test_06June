@@ -17,7 +17,7 @@ logger.addHandler(fh)
 
 logger.debug('Start of the program.')
 
-# Read sequences from Seq04.fasta
+# Read sequences from Seq03.fasta
 sequences = []
 with open(args.infile, "r") as fasta_file:
     for record in SeqIO.parse(fasta_file, "fasta"):

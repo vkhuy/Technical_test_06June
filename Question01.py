@@ -1,5 +1,9 @@
 from Bio import SeqIO
 import argparse
+import time
+
+# Start timing
+start_time = time.time()
 
 # Create CLI for user inputting
 parser = argparse.ArgumentParser(description='Assembly a DNA string based on sequences in a FASTA file.')
@@ -34,3 +38,9 @@ for i in range(10, len(sequence)):
         for kmer, count in kmer_counts.items():
             print(f"{kmer}:{count}")
         kmers = True
+
+# End timing
+end_time = time.time()
+# Calculate execution time
+execution_time = end_time - start_time
+print(f"Execution time: {execution_time} seconds")
